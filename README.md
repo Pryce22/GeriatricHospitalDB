@@ -11,7 +11,7 @@ A relational database designed for managing key aspects of a geriatric hospital,
 
 The following Entity-Relationship (E-R) diagram illustrates the structure of the database, showing the relationships between key entities such as patients, medical staff, hospital rooms, and treatments.
 
-![Final E-R Diagram](docs/E-R-finale.png)
+![E-R Diagram](E-R Diagram.png)
 
 ### Diagram Description
 - **Patient**: Stores personal information and medical history.
