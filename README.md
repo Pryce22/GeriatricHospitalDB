@@ -9,7 +9,19 @@ A relational database designed for managing key aspects of a geriatric hospital,
 
 ## Database Overview
 
-The database includes the following tables: afferenza, camera_ospedaliera, cartella_clinica, contenimento, dato_ematochimico, dieta, direzione, elencazione, farmacia, impiego, integratore, medicinale, medico, ordine_farmacia, paziente, personale_ospedaliero, prescrizione, prodotto, referto, registrazione, reparto, ricovero, riepilogo_acquisto, sottoposizione, stipulazione_acquisto, suddivisione, svolgimento, visita_medica.
+The following Entity-Relationship (E-R) diagram illustrates the structure of the database, showing the relationships between key entities such as patients, medical staff, hospital rooms, and treatments.
+
+![Final E-R Diagram](docs/E-R-finale.png)
+
+### Diagram Description
+- **Patient**: Stores personal information and medical history.
+- **Medical Staff**: Includes doctors and hospital personnel responsible for patient care.
+- **Hospital Room**: Manages patient accommodations and assignments.
+- **Medical Visits & Appointments**: Tracks scheduled consultations and examinations.
+- **Prescriptions & Pharmacy Orders**: Handles medication prescriptions and transactions with the pharmacy.
+- **Medical Records**: Stores reports, laboratory test results, and treatment plans.
+
+This structured approach ensures efficient hospital management by maintaining clear relationships between entities.
 
 ## Usage
 
